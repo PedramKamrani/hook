@@ -1,6 +1,8 @@
 import Card from "./../../UI/Card/Card"
-import React from 'react'
+import React ,{useEffect} from 'react'
 const Search = React.memo((props) => {
+
+
   return (
     <section className="search">
       <Card>
